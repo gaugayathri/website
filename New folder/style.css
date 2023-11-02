@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Alegreya+Sans:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.5);
+    background: black;
+}
+#navbarSupportedContent a{
+    color: #fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700;
+}
+#navbarSupportedContent button{
+    background: #29f700;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),url(images/g_magic.png);
+    background-size: cover;
+    background-position: center;
+}
+#home pre{
+    font-size: 50px;
+    color: #fff;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 0px 1px 0px #ccc,
+                  0px 2px 0px #ccc,
+                  0px 3px 0px #ccc,
+                  0px 4px 0px #ccc,
+                  0px 5px 0px #ccc,
+                  0px 6px 0px #ccc,
+                  0px 7px 0px #ccc;
+}
+#about{
+    background: linear-gradient(to right,whitesmoke,pink 100%);
+    
+}
+#about img{
+    margin-left:170px;
+    width: 200px;
+    height: 200px;
+}
+#about a{
+    text-decoration: none;
+}
+#about a button{
+    background-color: #29f700;
+    border-radius: 15px;
+    width: 90px;
+    height: 40px;
+}
+#about p{
+    margin-top: 20px;  
+}
+#about h1{
+    font-weight: 800px;
+    font-size: 50px;
+}
+#product{
+    background: #e5e5e5;
+}
+#product h1{
+    font-size: 50px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+#product img{
+    width: 248px;
+    height: 200px;
+}
+.card{
+    width: 250px;
+    height: 250px;
+    background: #e5e5e5 !important;
+    border:none !important;
+    box-shadow: 15px 20px 20px rgba(0,0,0,0.3),
+                inset 4px 4px 10px white;
+    border-radius: 20px !important; 
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 60px;
+    transition: .2s;
+}
+.card:hover{
+    box-shadow: inset 15px 20px 20px rgba(0,0,0,0.3),
+                inset -4px -4px 10px aqua;
+   transition: .2s;
+}
+#contact{
+    background: linear-gradient(to right,whitesmoke,pink 100%);
+}
+#contact img{
+    margin-left:170px;
+    width: 200px;
+    height: 200px;
+   
+}
+
